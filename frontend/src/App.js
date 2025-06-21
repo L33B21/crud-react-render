@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
 
-const API_URL = 'https://backend-crud-leeb.onrender.com';
+const API_URL = 'https://backend-crud-leeb.onrender.com/api/usuarios';
 
 function App() {
     const [usuarios, setUsuarios] = useState([]);
